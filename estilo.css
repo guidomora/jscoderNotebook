@@ -1,0 +1,24 @@
+.divs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly
+}
+
+
+.productos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly
+}
+
+.precios {
+    font-size: 17px;
+    margin: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
