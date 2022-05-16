@@ -22,11 +22,7 @@ let costo = 500;
 const carrito = [];
 let botonEnvio = document.getElementById("botonEnvio");
 
-const suma1 = (ramo1, costo) => ramo1 + costo;
-const suma2 = (ramo2, costo) => ramo2 + costo;
-const suma3 = (ramo3, costo) => ramo3 + costo;
-const suma4 = (ramo4, costo) => ramo4 + costo;
-const suma = (precio, costo) => precio + costo;
+const suma = (carrito, costo) => carrito + costo;
 
 
 ramos.forEach(ramos => {
@@ -59,10 +55,7 @@ document.getElementById(`divCheckout${carrito}`).addEventListener("click", () =>
 })
 
 document.getElementById(`botonEnvio${carrito}`).addEventListener("click", () => {
- carrito.forEach(carritoPrecios => { 
   botonEnvio.innerHTML += `
-  <h3> Precio final: ${suma(carritoPrecios)} </h3>
-`  
- })
-
+  <h3> Precio final: ${suma(carrito.precio, costo)} </h3>
+` 
 })
