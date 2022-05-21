@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Varela+Round&display=swap');
+
 .divs {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    font-family: 'Bebas Neue', cursive;
 }
 
 
@@ -12,7 +15,8 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .precios {
@@ -21,4 +25,5 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: 'Bebas Neue', cursive;
 }
