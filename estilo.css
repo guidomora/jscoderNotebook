@@ -1,29 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Varela+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Varela+Round&display=swap");
 
-.divs {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-evenly;
-    font-family: 'Bebas Neue', cursive;
+body {
+  font-family:"Bebas Neue", cursive;
 }
 
+.divs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  font-family: "Bebas Neue", cursive;
+
+}
 
 .productos {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-evenly;
-    font-family: 'Bebas Neue', cursive;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  font-family: "Bebas Neue", cursive;
+}
+
+.verCarrito {
+  font-size: 17px;
+  display: flex;
+  flex-direction: row;
+  font-family: "Bebas Neue", cursive;
+  cursor: pointer;
+}
+
+.padreProductos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.productosElegidos {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  border: solid 1px;
 }
 
 .precios {
+  font-size: 17px;
+  margin: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-family: "Bebas Neue", cursive;
+}
+
+.botonesEnvio{
+    font-family: "Bebas Neue", cursive;
     font-size: 17px;
-    margin: 35px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family: 'Bebas Neue', cursive;
+    padding: 5px;
 }
