@@ -23,7 +23,7 @@ body {
   font-family: "Bebas Neue", cursive;
 }
 
-.verCarrito {
+.btnCarrito {
   font-size: 17px;
   display: flex;
   flex-direction: row;
@@ -59,4 +59,14 @@ body {
     font-family: "Bebas Neue", cursive;
     font-size: 17px;
     padding: 5px;
+}
+
+.botonFinal {
+  font-family: "Bebas Neue", cursive;
+  font-size: 17px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
 }

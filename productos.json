@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "nombre": "ramo1",
+        "ramo": "variado chico",
+        "precio": 2500,
+        "flores": "flores variadas",
+        "cantidad": 0
+    },
+
+    {
+        "id": 2,
+        "nombre": "ramo2",
+        "ramo": "rosas",
+        "precio": 6000,
+        "flores": "rosas rojas",
+        "cantidad": 0
+    },
+
+    {
+        "id": 3,
+        "nombre": "ramo3",
+        "ramo": "liliums",
+        "precio": 3500,
+        "flores": "liliums blancos",
+        "cantidad": 0
+    },
+
+    {
+        "id": 4,
+        "nombre": "ramo4",
+        "ramo": "variado grande",
+        "precio": 7000,
+        "flores": "flores variadas",
+        "cantidad": 0
+    }
+]
