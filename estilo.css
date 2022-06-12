@@ -70,3 +70,8 @@ body {
   justify-content: center;
   align-content: center;
 }
+
+.imagen {
+  height: 200px;
+  width: 150px;
+}

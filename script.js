@@ -16,9 +16,10 @@ fetch(`./productos.json`)
   .then((response) => response.json())
   .then((ramos) => {
     ramos.forEach((ramos) => {
-      let { id, nombre, ramo, precio, flores} = ramos;
+      let { id, nombre, ramo, precio, flores, imagen} = ramos;
       divProductos.innerHTML += `
     <div id="divProductos ${id}" class="productos">
+      <img src ="${imagen}" class = "imagen">
       <h2> Nombre: ${nombre} </h2>
       <p> Tipo: ${ramo} </p>
       <p> Precio: ${precio} </p>
@@ -76,6 +77,7 @@ function showCarrito() {
     carrito.forEach((element) => {
       padreProductos.innerHTML += ` 
       <div id="divProductos ${element.id}" class="productosElegidos">
+      <img src ="${element.imagen}" class = "imagen">
         <h2> Nombre: ${element.nombre} </h2>
         <p> Tipo: ${element.ramo} </p>
         <p> Precio: ${element.precio} </p>
@@ -90,6 +92,10 @@ function showCarrito() {
 };
 
 // Funcion para borrar productos del carrito
+
+// function borrarProducto(carrito, id) {
+//   return (carrito.filter(element => element.id != id));
+// }
 
 function borrarProducto() {
   const btnBorrar = document.querySelectorAll(".btnBorrar");
